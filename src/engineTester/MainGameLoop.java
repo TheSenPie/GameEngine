@@ -102,7 +102,7 @@ public class MainGameLoop {
 
         RawModel model = loader.loadToVAO(vertices, textureCoords, indices);
 
-        ModelTexture texture = new ModelTexture(loader.loadTexture("image"));
+        ModelTexture texture = new ModelTexture(loader.loadTexture("eye"));
 
         TexturedModel staticModel = new TexturedModel(model, texture);
 
